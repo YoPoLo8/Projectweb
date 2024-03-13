@@ -1,0 +1,40 @@
+/* CSS for the search results */
+.container {
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.skeyword {
+    color: #007bff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-text strong {
+    color: #28a745;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

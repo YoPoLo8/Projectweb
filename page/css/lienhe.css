@@ -1,0 +1,52 @@
+/* Styles for the contact page */
+.container {
+
+    margin: 0 auto;
+
+
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2.text-center {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    padding-left: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.contact span {
+    font-weight: bold;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2.text-center {
+        font-size: 20px;
+    }
+
+    .contact li {
+        font-size: 14px;
+    }
+}

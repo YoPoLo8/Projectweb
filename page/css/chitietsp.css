@@ -1,0 +1,45 @@
+/* Đặt CSS trong một tệp riêng biệt, ví dụ: styles.css, và liên kết tệp này trong đầu trang HTML của bạn */
+
+/* Cài đặt chung cho container */
+.container {
+    max-width: 1200px; /* Giới hạn chiều rộng tối đa của container */
+    margin: auto; /* Căn giữa container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm bóng cho container */
+    background-color: #fff; /* Màu nền cho container */
+}
+
+/* Tiêu đề sản phẩm */
+h3.mb-4 {
+    color: #333; /* Đổi màu chữ */
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 30px !important; /* Tăng khoảng cách dưới tiêu đề */
+}
+
+/* Thông tin sản phẩm */
+.col-md-6 h2 {
+    color: #007bff; /* Màu chữ */
+}
+
+.price {
+    font-size: 24px; /* Kích thước chữ giá sản phẩm */
+}
+
+p {
+    line-height: 1.5; /* Khoảng cách giữa các dòng */
+    color: #666; /* Màu chữ */
+}
+
+/* Cải thiện hình ảnh sản phẩm */
+.img-fluid {
+    border-radius: 5px; /* Bo tròn góc của ảnh */
+    box-shadow: 0 0 8px rgba(0,0,0,0.2); /* Thêm bóng cho ảnh */
+}
+
+/* Cải thiện thông điệp lỗi và cảnh báo */
+.alert {
+    font-size: 16px; /* Điều chỉnh kích thước font */
+    padding: 15px; /* Tăng padding */
+    margin-top: 20px; /* Khoảng cách phía trên */
+    border-radius: 5px; /* Bo góc */
+}

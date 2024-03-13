@@ -1,0 +1,86 @@
+/* CSS for Manage Admin Page */
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table.tbl-full {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.tbl-full th,
+table.tbl-full td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table.tbl-full th {
+    background-color: #f2f2f2;
+}
+
+/* Button Styling */
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+}
+
+.btn-secondary {
+    background-color: #008CBA;
+}
+
+.btn-danger {
+    background-color: #f44336;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 15px;
+    }
+    table.tbl-full th,
+    table.tbl-full td {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .btn-primary,
+    .btn-secondary,
+    .btn-danger {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-content {
+        padding: 10px;
+    }
+    table.tbl-full th,
+    table.tbl-full td {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .btn-primary,
+    .btn-secondary,
+    .btn-danger {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

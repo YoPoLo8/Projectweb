@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto; /* Cho phép cuộn ngang khi bảng quá rộng */
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+#prd-bar td {
+    font-weight: bold;
+    color: #555;
+}
+
+.price {
+    color: #e85d04;
+}
+
+.thumb img {
+    max-height: 60px; /* Giảm kích thước ảnh để tránh làm vỡ bố cục */
+    width: auto;
+}
+
+#add-prd a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#add-prd a:hover {
+    background-color: #0056b3;
+}
+
+button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pagination a, #pagination span {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#pagination span {
+    background-color: #0069d9;
+}
+
+#pagination a:hover {
+    background-color: #0056b3;
+}
+
+/* Thêm phần đáp ứng */
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    tbody tr {
+        border-bottom: 2px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    tbody td {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .thumb img {
+        display: block;
+        margin: auto;
+    }
+
+    #main {
+        padding: 10px;
+    }
+}

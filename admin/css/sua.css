@@ -1,0 +1,109 @@
+/* Đặt kiểu chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#main {
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type=text],
+input[type=file],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit],
+input[type=reset],
+.btn-back {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover,
+.btn-back:hover {
+    background-color: #0056b3;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Đặt kiểu cho thông điệp thành công */
+.success-msg {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/* Điều chỉnh khoảng cách và căn chỉnh các phần tử */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    margin-bottom: 10px;
+}
+
+/* Cải thiện giao diện cho di động */
+@media (max-width: 768px) {
+    #main {
+        width: 95%;
+    }
+
+    tr {
+        flex-direction: column;
+    }
+}
